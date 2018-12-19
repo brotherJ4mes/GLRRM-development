@@ -1,4 +1,4 @@
-# Downloaded by ZAM on 9/19/18 from https://github.com/tim-hunter/GLRRM 
+# Downloaded by ZAM on 12/4/18 from https://github.com/tim-hunter/GLRRM 
 #
 # databank.py
 # databank_io.py
