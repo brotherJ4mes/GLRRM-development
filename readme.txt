@@ -1,6 +1,6 @@
 GLRRM - unofficial folder directory and preliminary proposed directory structure
 
-NOTE: Zoe Miller zoe.a.miller@usace.army.miller
+NOTE: Zoe Miller zoe.a.miller@
 Date 12/19/18
 
 Superior - dummy wrapper script
