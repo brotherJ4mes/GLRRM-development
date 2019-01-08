@@ -3,7 +3,6 @@
 import sys
 from copy import copy, deepcopy
 import datetime
-import handler.databank_util as util
 
 #--------------------------------------------------------------------
 #  Method to get the primary name for a particular metadata

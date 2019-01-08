@@ -1,12 +1,6 @@
 import os
 import re
 import datetime as dt
-import handler.databank as databank
-import handler.databank_util as util
-
-
-# set fill value for missing data or non-existent values in table
-fill = util.MISSING_REAL
 
 month_names = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',  
                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')

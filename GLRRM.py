@@ -24,9 +24,9 @@ sys.path
 # three files for the databank package in folder and readme file
 
 
-import handler.databank as db
-# import handler.databank_util as db_util
-import handler.databank_io as db_io
+from handler import databank as db
+# from handler import databank_util as db_util
+from handler import databank_io as db_io
 
 
 # ------ import created module/package: superior & middle & ontario -----------
@@ -35,17 +35,15 @@ import handler.databank_io as db_io
 # sys.path.insert(0,'/middle')
 # sys.path.insert(0,'/ontario)
 
-
-import superior.routesuperior as sp
+from superior import routesuperior as sp
 #import superior.superior_util as sp_util # tools and functions unique to superior
-import middle.routemiddle as ml
-import middle.routemiddle_util as ml_util # tools and functions unique to middle
+from middle import routemiddle as ml
+from middle import routemiddle_util as ml_util # tools and functions unique to middle
 # import ontario.routeontario as on
 # import ontario.routeontario_util as on_util
  
 help(ml.routemiddle)
 help(ml.SolveIterative)
-
 help(sp.routesuperior)
 #------------------------------------------------------------------------------
 # TODO: Create Configuration Files
